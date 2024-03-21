@@ -65,3 +65,14 @@ exercises.c:123:55: error: suggest parentheses around comparison in operand of �
 cc1: all warnings being treated as errors
 Compilation failed
 200979d
+Thu 21 Mar 2024 07:05:09 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:120:11: error: expected ‘)’ before ‘largo’
+  120 |   while (i largo / 2)
+      |         ~ ^~~~~~
+      |           )
+Compilation failed
+8a39162

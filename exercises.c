@@ -120,7 +120,7 @@ int parentesisBalanceados(char *cadena)
   while (i largo / 2)
     {
       j = largo - 1 - i;
-      if (cadena[i] + 1 == cadena[j] || cadena[i] + 2 == cadena[j] == cadena[j]) i++;
+      if (cadena[i] + 1 == cadena[j] || cadena[i] + 2 == cadena[j]) i++;
       else
           return 0;
     }
