@@ -63,7 +63,7 @@ retorne la suma de sus elementos.
 int sumaLista(List *L) 
 {
   int suma = 0;
-  int aux = first(L);
+  int *aux = first(L);
   while (aux != NULL)
     {
       suma += (*aux);
