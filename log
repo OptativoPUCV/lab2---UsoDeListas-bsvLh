@@ -2,3 +2,13 @@ Thu 21 Mar 2024 06:51:19 PM UTC:
  tests:  0|5
 total_score: 0/70
 e0e434b
+Thu 21 Mar 2024 06:54:26 PM UTC: 
+ exercises.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:53:19: error: invalid type argument of unary ‘*’ (have ‘int’)
+   53 |       pushBack(L, *arreglo[i]);
+      |                   ^~~~~~~~~~~
+Compilation failed
+f0e34fe
