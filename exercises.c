@@ -134,7 +134,7 @@ int parentesisBalanceados(char *cadena)
   int largo = strlen(cadena);
   int i = 0;
   int j = 0;
-  if (size % 2 != 0) return 0;
+  if (largo % 2 != 0) return 0;
   while (i < largo / 2)
     {
       j = largo - 1 - i;
