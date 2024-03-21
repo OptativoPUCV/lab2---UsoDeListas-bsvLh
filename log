@@ -76,3 +76,9 @@ exercises.c:120:11: error: expected ‘)’ before ‘largo’
       |           )
 Compilation failed
 8a39162
+Thu 21 Mar 2024 07:05:24 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|2
+total_score: 40/70
+560ea00
