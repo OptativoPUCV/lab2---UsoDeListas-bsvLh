@@ -93,3 +93,14 @@ Thu 21 Mar 2024 08:07:05 PM UTC:
  tests:  5|1
 total_score: 50/70
 2f0c827
+Thu 21 Mar 2024 08:07:57 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:137:7: error: ‘size’ undeclared (first use in this function)
+  137 |   if (size % 2 != 0) return 0;
+      |       ^~~~
+exercises.c:137:7: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+b62aa39
