@@ -50,7 +50,7 @@ List* crea_lista() {
   for(int i = 0; i < 10; i++)
     {
       arreglo[i] = i + 1;
-      pushBack(L, *arreglo[i]);
+      pushBack(L, &arreglo[i]);
     }
   return L;
 }
