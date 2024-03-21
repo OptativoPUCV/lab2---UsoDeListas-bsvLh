@@ -50,3 +50,18 @@ Thu 21 Mar 2024 06:59:34 PM UTC:
  tests:  3|2
 total_score: 40/70
 5f641fd
+Thu 21 Mar 2024 07:04:40 PM UTC: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:120:11: error: expected ‘)’ before ‘largo’
+  120 |   while (i largo / 2)
+      |         ~ ^~~~~~
+      |           )
+exercises.c:123:55: error: suggest parentheses around comparison in operand of ‘==’ [-Werror=parentheses]
+  123 |       if (cadena[i] + 1 == cadena[j] || cadena[i] + 2 == cadena[j] == cadena[j]) i++;
+      |                                         ~~~~~~~~~~~~~~^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+200979d
